@@ -1,25 +1,25 @@
-# Class and ID Selectors
-Knowing how to add class and ID attributes to HTML elements, as well as use their respective selectors, is invaluable. It's important to practice using them.
+# 類別和 ID 選擇器
+知道如何將類別和 ID 屬性添加到 HTML 元素，以及使用它們各自的選擇器，是非常有價值的。練習使用它們是很重要的。
 
-There are several elements in the HTML file provided, which you will have to add either class or ID attributes to, as noted in the outcome image below. You will then have to add rules in the CSS file provided using the correct selector syntax. Look over the outcome image carefully, and try to keep in mind which elements look similarly styled (classes), which ones may be completely unique from the rest (ID), and which ones have slight variations from others (multiple classes).
+在提供的 HTML 文件中有幾個元素，你需要根據下面的結果圖像，為它們添加類別或 ID 屬性。然後，你需要在提供的 CSS 文件中使用正確的選擇器語法添加規則。仔細查看結果圖像，並試著記住哪些元素看起來樣式相似（類別），哪些可能與其他元素完全不同（ID），以及哪些與其他元素有些許變化（多個類別）。
 
-It isn't entirely important which class or ID values you use, as the focus here is on being able to add the attributes and use the correct selector syntax to style elements. For the colors in this exercise, try using a non-keyword value (RGB, HEX, or HSL). The properties you need to add to each element are:
+使用哪個類別或 ID 值並不完全重要，這裡的重點是能夠添加屬性並使用正確的選擇器語法來樣式化元素。對於這個練習中的顏色，試著使用非關鍵字值（RGB、HEX 或 HSL）。你需要為每個元素添加的屬性是：
 
-* **All odd numbered elements**: a light red/pink background, and a list of fonts containing `Verdana` and `DejaVu Sans` with `sans-serif` as a fallback
-* **The second element**: blue text and a font size of 36px
-* **The third element**: in addition to the styles for all odd numbered elements, add a font size of 24px
-* **The fourth element**: a light green background, a font size of 24px, and bold
+* **所有奇數編號的元素**：淺紅色/粉紅色背景，包含 `Verdana` 和 `DejaVu Sans` 字體的列表，並以 `sans-serif` 作為後備
+* **第二個元素**：藍色文字，字體大小為 36px
+* **第三個元素**：除了所有奇數編號元素的樣式外，還需添加字體大小為 24px
+* **第四個元素**：淺綠色背景，字體大小為 24px，並加粗
 
-Quick tip: in VS Code, you can change which format colors are displayed in RGB, HEX, or HSL by hovering over the color value in the CSS and clicking the top of the popup that appears!
+快速提示：在 VS Code 中，你可以通過懸停在 CSS 中的顏色值上並點擊彈出窗口頂部來更改顏色顯示格式為 RGB、HEX 或 HSL！
 
-> ### Note:
-> Part of your task is to add a font to _some_ of these items. Your browser's font's might be different than the one displayed in the desired outcome image. As long as you confirm that the fonts _are_ being applied to the right lines any differences are okay for this exercise.
+> ### 注意：
+> 你的任務的一部分是為 _某些_ 項目添加字體。你的瀏覽器字體可能與結果圖像中顯示的不同。只要你確認字體 _確實_ 應用於正確的行，任何差異在這個練習中都是可以接受的。
 
-## Desired Outcome
+## 預期結果
 ![desired outcome](./desired-outcome.png)
 
 
-### Self Check
-- Do the odd numbered `p` elements share a class?
-- Do the even numbered `div` elements have unique IDs?
-- Does the Number 3 element have multiple classes?
+### 自我檢查
+- 奇數編號的 `p` 元素是否共享一個類別？
+- 偶數編號的 `div` 元素是否有唯一的 ID？
+- 第三個元素是否有多個類別？

@@ -1,18 +1,18 @@
 # CSS Methods
 
-This final exercise for CSS Foundations is going to give you a closer look at the cascade, in particular specificity and rule order. Both the HTML and CSS files are filled out for you, so instead of adding rules yourself, you will simply be editing what is provided.
+這是 CSS 基礎的最後一個練習，將讓你更深入地了解層疊，特別是特異性和規則順序。HTML 和 CSS 文件都已經為你填寫好了，所以你不需要自己添加規則，而是編輯提供的內容。
 
-There are a few elements that have some sort of specificity or rule order issue in the provided CSS file. It's up to you to figure out what issue is affecting an element, and how to fix it. You can edit the CSS file by adding, removing, or editing selectors for a declaration block, or by moving declaration blocks around. **You should not edit the HTML file or any of the actual styles in the CSS**.
+在提供的 CSS 文件中，有一些元素存在特異性或規則順序問題。你需要找出影響元素的問題並解決它。你可以通過添加、刪除或編輯聲明塊的選擇器，或者移動聲明塊來編輯 CSS 文件。**你不應該編輯 HTML 文件或 CSS 中的任何實際樣式**。
 
-There are multiple ways to solve this exercise, so we have provided some of the possible solutions for each element.
+這個練習有多種解決方法，因此我們為每個元素提供了一些可能的解決方案。
 
-Issues with the cascade can be the bane of their existence for many when it comes to CSS. While you won't become a cascade expert from this exercise alone, and there are other ways to deal with these issues, it is still super helpful to see how these issues affect our final styles and why it's important to order rules carefully.
+層疊問題可能是許多人在處理 CSS 時的痛點。雖然僅靠這個練習你不會成為層疊專家，而且還有其他方法可以解決這些問題，但看到這些問題如何影響我們的最終樣式以及為什麼仔細排列規則很重要，仍然是非常有幫助的。
 
-## Desired Outcome
+## 預期結果
 
 ![desired outcome](./desired-outcome.png)
 
-### Self Check
+### 自我檢查
 
-- Did you make sure to not edit the HTML file?
-- If you added selectors to the CSS, do they target a valid HTML element?
+- 你是否確保沒有編輯 HTML 文件？
+- 如果你在 CSS 中添加了選擇器，它們是否針對有效的 HTML 元素？

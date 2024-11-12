@@ -1,19 +1,19 @@
 # Grouping Selectors
 
-Let's build a little off the previous exercise. Here, you're going to give two elements each a unique class name, then add rules for styles that both elements share as well as their own unique styles. Make sure you take a good look at the outcome image below to see exactly what is unique about each element, and what both elements have in common.
+讓我們在前一個練習的基礎上再進一步。這裡，你將給兩個元素各自一個唯一的類別名稱，然後添加兩個元素共享的樣式規則以及它們各自的獨特樣式。請仔細查看下面的結果圖像，看看每個元素的獨特之處，以及兩個元素共有的部分。
 
-This will help you further practice adding classes and using class selectors, so be sure you add the class attribute in the HTML file. For the remainder of these exercises, the format of any colors is entirely up to you; we trust you'll practice using the different values! The properties you need to add to each element are:
+這將幫助你進一步練習添加類別和使用類別選擇器，因此請確保在 HTML 文件中添加類別屬性。在這些練習的剩餘部分，任何顏色的格式完全由你決定；我們相信你會練習使用不同的值！你需要為每個元素添加的屬性是：
 
-- **The first element**: a black background and white text
-- **The second element**: a yellow background
-- **Both elements**: a font size of 28px and a list of fonts containing `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback
+- **第一個元素**：黑色背景和白色文字
+- **第二個元素**：黃色背景
+- **兩個元素**：字體大小為 28px，包含 `Helvetica` 和 `Times New Roman` 字體的列表，並以 `sans-serif` 作為後備
 
-## Desired Outcome
+## 預期結果
 
 ![desired outcome](./desired-outcome.png)
 
-### Self Check
+### 自我檢查
 
-- Does each element have a unique class name?
-- Did you use the grouping selector for styles that both elements share?
-- Did you make separate rules for the styles unique to each element?
+- 每個元素是否有唯一的類別名稱？
+- 你是否使用了分組選擇器來設置兩個元素共享的樣式？
+- 你是否為每個元素的獨特樣式設置了單獨的規則？

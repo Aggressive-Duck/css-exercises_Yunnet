@@ -1,18 +1,18 @@
-# Margin and Padding #2
+# 外編劇和內邊距 #2
 
-This one is a little nicer looking, and a little closer to something you might see in the real world. You'll need to change a little more than just margin and padding to make it look exactly right.
+這個看起來更漂亮，也更接近你在現實世界中可能看到的東西。你需要更改的不僅僅是 margin 和 padding，才能使其看起來完全正確。
 
-## Desired outcome
+## 預期結果
 ![desired outcome](./desired-outcome.png)
 
-### Self Check
-Use this section to check your work. On _these_ projects, your goal isn't to attain 100% pixel perfection, but to use the tools you've learned to get relatively close to the desired output.
+### 自我檢查
+使用這個部分來檢查你的工作。在這些項目中，你的目標不是達到 100% 的像素完美，而是使用你學到的工具來達到與預期輸出相對接近的效果。
 
-- There is 8px between the edge of the card and its content (the blue sections).
-- There is an 8px gap between each of the blue sections inside the card.
-- The title of the card uses a 16px font.
-- There are 8px between the title text and the edge of the title section.
-- The content section has 16px space on the top and bottom, and 8px on either side.
-- Everything inside the `.button-container` section is centered, and there is 8px padding.
-- The Big Button is centered on its own line.
-- The Big Button has 24px space on the sides, and 8px on top and bottom.
+- 卡片邊緣和其內容（藍色部分）之間有 8px 的距離。
+- 卡片內部的每個藍色部分之間有 8px 的間隙。
+- 卡片的標題使用 16px 字體。
+- 標題文本和標題部分的邊緣之間有 8px 的距離。
+- 內容部分的上下有 16px 的空間，左右有 8px 的空間。
+- `.button-container` 部分內的所有內容都是居中的，並且有 8px 的內邊距。
+- 大按鈕在其自己的行上居中。
+- 大按鈕的兩側有 24px 的空間，上下有 8px 的空間。

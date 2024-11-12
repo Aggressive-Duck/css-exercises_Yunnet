@@ -1,18 +1,17 @@
 # Descendant Combinator
-Understanding how combinators work can become a lot easier when you start playing around with them and see what exactly is affected by them versus what isn't.
+理解組合器的工作原理會變得更容易，當你開始玩弄它們並看到哪些元素會受到影響，哪些不會受到影響時。
 
-The goal of this exercise is to apply styles to elements that are descendants of another element, while leaving elements that *aren't* descendants of that element unstyled.
+這個練習的目標是將樣式應用於另一個元素的後代元素，同時保持那些*不是*後代的元素不加樣式。
 
-You can use either type or class selectors for this exercise; use whichever you may feel you want to practice with more. The HTML file is set up (so no need to edit anything in it) such that any combination of selectors will work, so if you're feeling adventurous you can even try combining a type *and* class selector for the descendant combinator.
+你可以使用類型選擇器或類別選擇器來進行這個練習；使用你想要更多練習的選擇器。HTML 文件已經設置好了（所以不需要對其進行任何編輯），任何選擇器的組合都可以工作，所以如果你感到冒險，你甚至可以嘗試將類型*和*類別選擇器結合使用來進行後代組合器。
 
-The properties you need to add are:
+你需要添加的屬性是：
 
-* Only the `p` elements that are descendants of the `div` element should have a yellow background, red text, a font size of 20px, and center aligned.
+* 只有作為 `div` 元素後代的 `p` 元素應該有黃色背景、紅色文字、字體大小為 20px，並且居中對齊。
 
-## Desired Outcome
+## 預期結果
 ![desired outcome](./desired-outcome.png)
 
-
-### Self Check
-- Do the elements that contain the text "This should be styled" have the correct styles applied?
-- Do the elements that contain the text "This should be unstyled" have no styles applied?
+### 自我檢查
+- 包含 "This should be styled" 文本的元素是否應用了正確的樣式？
+- 包含 "This should be unstyled" 文本的元素是否沒有應用樣式？
